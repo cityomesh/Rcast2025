@@ -9,9 +9,9 @@ const Home: React.FC = () => {
 
   return (
     <>     
-      <Header/>
+      {/* <Header/> */}
       <Homepage />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
