@@ -10,39 +10,7 @@ const FacilitiesPage = () => {
   return (
     <div className="bg-white">
     <div>
-      <div className="relative w-full h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] xl:h-[35rem] flex items-center justify-center px-4 sm:px-4 mt-[6rem]">
-        <Image
-        src="/dhs.png"
-        alt="Facility Image"
-        layout="fill"
-        objectFit="cover"
-        priority
-        className="z-0"
-        />
-        <div className="flex flex-col">
-          <div className="sliding-text text-6xl font-bold relative z-10 text-white text-center animate-slide-down">
-            Contact
-          </div>
-        </div>
-
-        <style jsx>{`
-          @keyframes slideDown {
-            from {
-              transform: translateY(-70px);
-              opacity: 0;
-            }
-            to {
-              transform: translateY(0);
-              opacity: 1;
-            }
-          }
-
-          .animate-slide-down {
-            animation: slideDown 1s forwards;
-          }
-        `}</style>
-      </div>
-      <div className="flex flex-col lg:flex-row md:w-[80%] mx-auto justify-center p-6">
+      <div className="flex flex-col lg:flex-row md:w-[80%] mx-auto justify-center p-6 mt-[8rem]">
         <div className="w-full lg:w-3/6 p-4 space-y-6">
           <h2 className="text-xl font-semibold">Get In Touch</h2>
           <div className="flex items-center space-x-4">

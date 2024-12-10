@@ -45,14 +45,14 @@ const Home = () => {
 
           <div className="md:hidden" onClick={toggleMobileMenu}>
             {isMobileMenuOpen ? (
-              <FaTimes className="text-2xl cursor-pointer" />
+              <FaTimes className="text-3xl cursor-pointer" />
             ) : (
-              <FaBars className="text-2xl cursor-pointer" />
+              <FaBars className="text-3xl cursor-pointer" />
             )}
           </div>
 
           <ul
-            className={`absolute md:static top-16 left-0 w-full bg-white md:w-auto md:flex md:items-center md:space-x-6 text-blue-900 font-semibold transition-all duration-300 ease-in-out ${
+            className={`absolute text-[18px] md:static top-16 left-0 w-full bg-white md:w-auto md:flex md:items-center md:space-x-6 text-blue-900 font-semibold transition-all duration-300 ease-in-out ${
               isMobileMenuOpen ? "block" : "hidden"
             }`}
           >
@@ -62,6 +62,9 @@ const Home = () => {
             <li className="cursor-pointer hover:text-[#F7961E] py-2 px-4 md:py-0 md:px-0">
               <Link href="/technology">Technology</Link>
             </li> 
+            <li className="cursor-pointer hover:text-[#F7961E] py-2 px-4 md:py-0 md:px-0">
+              <Link href="/iptvs">IPTV vs OTT </Link>
+            </li>
             <li className="cursor-pointer hover:text-[#F7961E] py-2 px-4 md:py-0 md:px-0">
               <Link href="/iptvcable">IPTV vs Cable TV</Link>
             </li>

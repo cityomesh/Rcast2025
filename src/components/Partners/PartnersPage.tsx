@@ -33,19 +33,9 @@ const PartnersPage = () => {
   };
 
   return (
-    <div className="bg-white">
-      <div className="relative w-full h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] xl:h-[40rem] flex items-center justify-center px-4 sm:px-4">
-        <Image
-          src="/network.png"
-          alt="Facility Image"
-          layout="fill"
-          objectFit="cover"
-          priority
-          className="z-0"
-        />
-      </div>
-
-      <div className="flex flex-col items-center mt-10 space-y-4 mb-8 px-4">
+    <div className="bg-white mt-[10rem]">
+      
+      <div className="flex flex-col items-center mt-10 space-y-4 mb-8 px-4 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full sm:max-w-5xl mx-auto">
           {[
             "Major PSUs BSNL and Railtel are our Network Partners for IPTV Services.",
@@ -60,9 +50,6 @@ const PartnersPage = () => {
               }}
             >
               <h2 className="text-lg sm:text-xl font-bold leading-6 sm:leading-7 text-white text-center group-hover:text-blue-500">
-                <span className="block text-[18px] sm:text-base font-bold group-hover:text-blue-500">
-                  Partner Info
-                </span>
                 <span className="block text-[15px] text-[#33CCC5] mt-2 group-hover:text-gray-400">
                   {text}
                 </span>
@@ -104,7 +91,7 @@ const PartnersPage = () => {
             </div>
           </div>
 
-          <div className="my-[1px] flex flex-col justify-center items-center">
+          {/* <div className="my-[1px] flex flex-col justify-center items-center">
             <h1 className="mb-[40px] px-4 text-center">
               <span className="text-[#2B1C50] xl:text-[40px] text-[16px] font-semibold mr-2">
                 Learn about
@@ -123,7 +110,7 @@ const PartnersPage = () => {
                 <source src="/Getting.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -200,10 +187,10 @@ const PartnersPage = () => {
             <div className="flex flex-col items-center group">
               <div className="relative overflow-hidden rounded-[20px] group-hover:border-2 group-hover:border-[#F7961E] transition-all duration-500">
                 <Image 
-                  src="/jhdh.webp" 
+                  src="/lite_icon3.png" 
                   alt="logo" 
-                  width={200} 
-                  height={300} 
+                  width={100} 
+                  height={200} 
                   className="w-[600px] h-[300px] object-cover rounded-[20px] group-hover:scale-110 transition-transform duration-500 ease-in-out"
                 />
               </div>

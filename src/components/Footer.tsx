@@ -12,27 +12,23 @@ function Footer() {
           <ul className="space-y-2">
             <li className="flex items-center">
               <i className="bi bi-chevron-right mr-2"></i>
-              <a href="/technology" className="hover:tracking-widest">Technology</a>
+              <a href="https://ulka.tv/ulka-lite" className="hover:tracking-widest">ULKALITE</a>
             </li>
             <li className="flex items-center">
               <i className="bi bi-chevron-right mr-2"></i>
-              <a href="#" className="hover:tracking-widest">IPTV vs Cable TV</a>
+              <a href="https://www.skypro.co.in/home" className="hover:tracking-widest">Skypro</a>
             </li>
             <li className="flex items-center">
               <i className="bi bi-chevron-right mr-2"></i>
-              <a href="/smartconnect" className="hover:tracking-widest">Smart Connect</a>
+              <a href="https://www.smartapp.com/" className="hover:tracking-widest">Smart Apps</a>
             </li>
             <li className="flex items-center">
               <i className="bi bi-chevron-right mr-2"></i>
-              <a href="#" className="hover:tracking-widest">Smart Apps</a>
+              <a href="https://pallycon.com/" className="hover:tracking-widest">Pallycon</a>
             </li>
             <li className="flex items-center">
               <i className="bi bi-chevron-right mr-2"></i>
-              <a href="#" className="hover:tracking-widest">Partners</a>
-            </li>
-            <li className="flex items-center">
-              <i className="bi bi-chevron-right mr-2"></i>
-              <a href="#" className="hover:tracking-widest">About</a>
+              <a href="#" className="hover:tracking-widest">Tataply.com</a>
             </li>
           </ul>
         </div>
@@ -60,12 +56,12 @@ function Footer() {
           <h5 className="font-bold text-lg mb-1">Gallery</h5>
           <hr className="w-[60px] font-extrabold border-t-2 mb-5" ></hr>
           <div className="grid grid-cols-3 gap-2">
-            <img src="/dev.webp" alt="Gallery 1" className="w-16 h-16 border-white border-2" />
-            <img src="/text.jpg" alt="Gallery 2" className="w-16 h-16 border-white border-2" />
-            <img src="/import.jpg" alt="Gallery 3" className="w-16 h-16 border-white border-2" />
-            <img src="/future1.jpg" alt="Gallery 4" className="w-16 h-16 border-white border-2" />
-            <img src="/digital.png" alt="Gallery 5" className="w-16 h-16 border-white border-2" />
-            <img src="/card.png" alt="Gallery 6" className="w-16 h-16 border-white border-2" />
+            <img src="/ulka.png" alt="Gallery 1" className="w-16 h-16 border-white border-2" />
+            <img src="/oioo.png" alt="Gallery 2" className="w-16 h-16 border-white border-2" />
+            <img src="/ter.png" alt="Gallery 3" className="w-16 h-16 border-white border-2" />
+            <img src="/yte.png" alt="Gallery 4" className="w-16 h-16 border-white border-2" />
+            <img src="/rem.png" alt="Gallery 5" className="w-16 h-16 border-white border-2" />
+            <img src="/resa.png" alt="Gallery 6" className="w-16 h-16 border-white border-2" />
           </div>
         </div>
 

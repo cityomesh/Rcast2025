@@ -44,10 +44,9 @@ const IptvCableTvPage = () => {
   };
 
   const images = [
-    { src: "/ol.webp", alt: "Image 1" },
-    { src: "/ipsstv.png", alt: "Image 2" },
-    { src: "/DTH.webp", alt: "Image 3" }, 
-    { src: "/ggg.jpg", alt: "Image 4" },
+    { src: "/ipsstv.png", alt: "Image 3" },
+    { src: "/ggg.jpg", alt: "Image 1" },
+    { src: "/ol.webp", alt: "Image 2" },
   ];
 
   const texts = [
@@ -60,55 +59,46 @@ const IptvCableTvPage = () => {
       moreInfo:
         "Distribution of Digital Cable TV requires dedicated Dark fiber Network and WDM couplers and Decouplers which adds to the CAPEX of distribution.",
       footerText:
-        "",
+        "Rcast distributes the IPTV signal in existing local broadband Networks and cost of dedicated high power laser network can be avoided.",
     },
     {
-      title: "Yes, the R-Cast app is available on Android smartphones",
+      title: "Cable TV requires Dedicated 2GB-3GB bandwidth for the Trunk Line against 310mbps to 1Gbps BW for Rcast",
       description:
-        "The app is intended to cast videos from websites that don't have a Roku channel. You can install the R-Cast app on your Android device and the R-Cast channel on your Roku device.",
+        "Cable TV requires Edge QAM modulator and EDFA at each Distribution Location costing Rs.300k-400k.",
       mobileAppText:
-        "Available in Android and I-Phone Mobile App Stores.",
+        "Rcast CDN (Streaming Server) at Rs.15k-50k.",
       moreInfo:
-        "Android is simply one platform (type) of Smartphone. Examples of other platforms are: Apple iPhone, Windows Phone, etc.",
+        "Distribution of Digital Cable TV requires dedicated Dark fiber Network and WDM couplers and Decouplers which adds to the CAPEX of distribution.",
       footerText:
-        "Rcast STBs and Sticks supporting popular OTT Apps available for upgrading Older TVs to Smart TVs.",
+        "Rcast distributes the IPTV signal in existing local broadband Networks and cost of dedicated high power laser network can be avoided.",
     },
     {
-      title: "We distribute nearly 700 licensed Satellite Channels and can include local channels on select CDN servers as per requirements of distributors.",
+      title: "Cable TV requires Dedicated 2GB-3GB bandwidth for the Trunk Line against 310mbps to 1Gbps BW for Rcast",
       description:
-        "Interconnect Agreements with all the Major Broadcasters including Star TV, ZEE, SONY, TV18, ETV, SUN, Gemini, Times, India Today, Discovery, OTV, NDTV and others.",
+        "Cable TV requires Edge QAM modulator and EDFA at each Distribution Location costing Rs.300k-400k.",
       mobileAppText:
-        "Choice of Broadcaster Bouquets and Ala-carte channels.",
+        "Rcast CDN (Streaming Server) at Rs.15k-50k.",
       moreInfo:
-        " Best value Regional and Multilingual Package offers of ULKA TV which includes 360+ Free to Air Channels.",
+        "Distribution of Digital Cable TV requires dedicated Dark fiber Network and WDM couplers and Decouplers which adds to the CAPEX of distribution.",
+      footerText:
+        "Rcast distributes the IPTV signal in existing local broadband Networks and cost of dedicated high power laser network can be avoided.",
     },
-    {
-      title: "Internet Protocol Television",
-       description:
-          "Uses the internet to stream live TV and on-demand video content. IPTV requires a stable internet connection and a set-top box to convert the content for viewing on a TV. IPTV is a good choice if you want flexibility.",
-        mobileAppText:
-          "delivers television content over the traditional cable or satellite signals",
-        moreInfo:
-          "Rcast distributes the IPTV signal in existing local broadband Networks and cost of dedicated high power laser network can be avoided.",
-        footerText:
-          "",
-      },
   ];
   
   return (
     <div className="bg-white">
-      <div className="relative w-full h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] xl:h-[39rem] flex items-center justify-center px-4 sm:px-4 mt-[6rem]">
+      {/* <div className="relative w-full h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] xl:h-[39rem] flex items-center justify-center px-4 sm:px-4 mt-[6rem]">
         <Image
-          src="/TiviMate.webp"
+          src="/lop.webp"
           alt="Facility Image"
           layout="fill"
           objectFit="cover"
           priority
           className="z-0"
         />
-      </div>
+      </div> */}
      
-      <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 mt-[4rem]">
+      <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 mt-[8rem]">
         <div>
           <Carousel
             showThumbs={true}
@@ -117,7 +107,7 @@ const IptvCableTvPage = () => {
             onChange={(index) => setActiveIndex(index)}
           >
             {images.map((image, index) => (
-              <div key={index} className="flex justify-center items-center">
+              <div key={index} className="flex justify-center items-center mt-[2rem]">
                 <Image
                   src={image.src}
                   alt={image.alt}
@@ -145,7 +135,7 @@ const IptvCableTvPage = () => {
         </div>
       </div>
      
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <div className="flex justify-center w-[90rem] items-center rounded-[30px] flex-col bg-gradient-to-b from-[#05020A] to-[#200C42] p-[32px] md:p-[37.5px] xl:py-[75px] xl:px-[135px]">
             <h2 className="text-white text-[16px] md:text-[20px] xl:text-[30.556px] font-semibold cursor-default">
             What is IPTV vs Cable TV?
@@ -401,7 +391,7 @@ const IptvCableTvPage = () => {
             </div>
             </div>
         </div>
-        </div>
+        </div> */}
     </div>
   );
 };
