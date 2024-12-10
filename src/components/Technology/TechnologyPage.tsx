@@ -1,17 +1,17 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
-import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Plus, X, ArrowLeft } from "@phosphor-icons/react";
-import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
+// import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+// import { Plus, X, ArrowLeft } from "@phosphor-icons/react";
+// import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import { motion } from 'framer-motion';
 
 const TechnologyPage = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [highlightedCards, setHighlightedCards] = useState<boolean[]>([false, false, false, false]);
-  const [selectedLocation, setSelectedLocation] = useState("");
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
+  // const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [highlightedCards, setHighlightedCards] = useState<boolean[]>([false, false, false, false]);
+  // const [selectedLocation, setSelectedLocation] = useState("");
+  // const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const [animate, setAnimate] = useState<boolean>(true);
 
@@ -24,34 +24,34 @@ const TechnologyPage = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const images = ["/iptv-business.jpg", "/poll.jpg"];
+  // const images = ["/iptv-business.jpg", "/poll.jpg"];
 
 
-  const faqData = [
-    {
-      id: "collapseOne",
-      question: "IPTV is licensed by M.I.B and it is exempted from AGR using existing local broadband networks. AGR is payable for OTT Applications since they use internet.",
-      image: "/blog-OTT.png",
-    },
-    {
-      id: "collapseTwo",
-      question: "ALL OTT Applications use Global Streaming Servers like Amazon and Akamai and consumes internet bandwidth and hence cost of internet becomes expensive.",
-      image: "/iil.png",
-    },
-    {
-      id: "collapseFour",
-      question: "Distribution of licensed Satellite channels is permitted only from Licensed Distribution Platform operators (IPTV, DTH, Hits, Digital Cable TV).",
-      image: "/dth-vs-ott.webp",
-    },
-    {
-      id: "collapseThree",
-      question: "M.I.B is already in the Process of withdrawal of Live satellite channels from OTT platforms and Major Broadcasters like Star and Sony have already withdrawn their live channels from their OTT Apps Disney Hotstar and Sony LIV.",
-      answer: (
-        <p></p>
-      ),
-      image: "/Blog-image-01.jpg",
-    },
-  ];
+  // const faqData = [
+  //   {
+  //     id: "collapseOne",
+  //     question: "IPTV is licensed by M.I.B and it is exempted from AGR using existing local broadband networks. AGR is payable for OTT Applications since they use internet.",
+  //     image: "/blog-OTT.png",
+  //   },
+  //   {
+  //     id: "collapseTwo",
+  //     question: "ALL OTT Applications use Global Streaming Servers like Amazon and Akamai and consumes internet bandwidth and hence cost of internet becomes expensive.",
+  //     image: "/iil.png",
+  //   },
+  //   {
+  //     id: "collapseFour",
+  //     question: "Distribution of licensed Satellite channels is permitted only from Licensed Distribution Platform operators (IPTV, DTH, Hits, Digital Cable TV).",
+  //     image: "/dth-vs-ott.webp",
+  //   },
+  //   {
+  //     id: "collapseThree",
+  //     question: "M.I.B is already in the Process of withdrawal of Live satellite channels from OTT platforms and Major Broadcasters like Star and Sony have already withdrawn their live channels from their OTT Apps Disney Hotstar and Sony LIV.",
+  //     answer: (
+  //       <p></p>
+  //     ),
+  //     image: "/Blog-image-01.jpg",
+  //   },
+  // ];
 
   const features = [
     {
@@ -74,13 +74,13 @@ const TechnologyPage = () => {
     },
   ];
 
-  const handleCardClick = (index: number) => {
-    setHighlightedCards(prev => {
-      const updatedCards = [...prev];
-      updatedCards[index] = !updatedCards[index];
-      return updatedCards;
-    });
-  };
+  // const handleCardClick = (index: number) => {
+  //   setHighlightedCards(prev => {
+  //     const updatedCards = [...prev];
+  //     updatedCards[index] = !updatedCards[index];
+  //     return updatedCards;
+  //   });
+  // };
 
  
 

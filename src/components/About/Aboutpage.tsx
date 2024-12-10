@@ -1,13 +1,11 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
+// import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 
 const Aboutpage = () => {
-  const [currentSlide, setCurrentSlide] = useState<number>(0);
-  const handleSlideChange = (index: number) => setCurrentSlide(index);
-  const [highlightedCards, setHighlightedCards] = useState<boolean[]>([false, false, false, false]);
+  // const [currentSlide, setCurrentSlide] = useState<number>(0);
+  // const handleSlideChange = (index: number) => setCurrentSlide(index);
+  // const [highlightedCards, setHighlightedCards] = useState<boolean[]>([false, false, false, false]);
 
   const fourCardsData = [
     {
@@ -28,26 +26,26 @@ const Aboutpage = () => {
     },
   ];
 
-  const services = [
-    {
-      description: "The Television sets are being upgraded at a very fast pace.4K Smart TVs are common today and the traditional Set-top-Boxes are unable to upgrade to the standards of 4K Televisions."
-    },
-    {
-      description: "LED TVs are preferred for their energy efficiency, slimmer design, and enhanced picture quality compared to traditional LCDs. They offer better brightness, contrast, and a broader color spectrum."
-    },
-    {
-      title: "",
-      description: "Smart TV share of new Television sales is more then 95%, Rcast 4K compatible distribution system has TRAI approved Virtual STB Application for Smart TVs and Smart Phones.."
-    },
-  ];
+  // const services = [
+  //   {
+  //     description: "The Television sets are being upgraded at a very fast pace.4K Smart TVs are common today and the traditional Set-top-Boxes are unable to upgrade to the standards of 4K Televisions."
+  //   },
+  //   {
+  //     description: "LED TVs are preferred for their energy efficiency, slimmer design, and enhanced picture quality compared to traditional LCDs. They offer better brightness, contrast, and a broader color spectrum."
+  //   },
+  //   {
+  //     title: "",
+  //     description: "Smart TV share of new Television sales is more then 95%, Rcast 4K compatible distribution system has TRAI approved Virtual STB Application for Smart TVs and Smart Phones.."
+  //   },
+  // ];
 
-  const handleCardClick = (index: number) => {
-    setHighlightedCards(prev => {
-      const updatedCards = [...prev];
-      updatedCards[index] = !updatedCards[index];
-      return updatedCards;
-    });
-  };
+  // const handleCardClick = (index: number) => {
+  //   setHighlightedCards(prev => {
+  //     const updatedCards = [...prev];
+  //     updatedCards[index] = !updatedCards[index];
+  //     return updatedCards;
+  //   });
+  // };
 
   return (
     <div className="bg-white">

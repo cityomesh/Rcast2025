@@ -1,30 +1,30 @@
 "use client";
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { WifiHigh } from "@phosphor-icons/react";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Homepage = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isScrolled, setScrolled] = useState(false);
-  const [showImages, setShowImages] = useState(false);
+  // const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [isScrolled, setScrolled] = useState(false);
+  // const [showImages, setShowImages] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen((prev) => !prev);
-  };
+  // const toggleMobileMenu = () => {
+  //   setMobileMenuOpen((prev) => !prev);
+  // };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setScrolled(true);
+  //     } else {
+  //       setScrolled(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <>
@@ -232,7 +232,7 @@ const Homepage = () => {
                 <Image src="/ddindiahD.png" alt="SWSA" width={150} height={150} className="object-contain" />
               </div>
             </div>
-            <div className="w-full rounded-[40px] p-6 mt-4">
+            {/* <div className="w-full rounded-[40px] p-6 mt-4">
               {!showImages && (
                  <div className="flex justify-center">
                  <button
@@ -355,7 +355,7 @@ const Homepage = () => {
                   </div>
                 </>
               )}
-            </div>
+            </div> */}
           </div>       
       </div>
     </>

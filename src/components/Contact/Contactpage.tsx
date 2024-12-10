@@ -1,12 +1,12 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+// import React, { useState } from "react";
+// import Link from "next/link";
+// import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 
 const FacilitiesPage = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="bg-white">
     <div>

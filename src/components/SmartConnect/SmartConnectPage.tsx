@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
+// import Link from "next/link";
+// import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 
 const SmartConnectPage = () => {
 
@@ -20,63 +20,63 @@ const SmartConnectPage = () => {
   }, []);
 
 
-  const projects = [
-    {
-      imageUrl: './ulka.png',
-      link: 'https://ulka.tv/',
-    },
-    {
-      imageUrl: './iptvv.jpg',
-      link: 'https://ulka.tv/ulka-lite',
-    },
-    {
-      imageUrl: './futures4.jpg',
-      link: 'https://ulka.tv/packs',
-    },
-    {
-      imageUrl: './resa.png',
-      link: 'https://www.android.com/better-together/',
-    },
-  ];
+  // const projects = [
+  //   {
+  //     imageUrl: './ulka.png',
+  //     link: 'https://ulka.tv/',
+  //   },
+  //   {
+  //     imageUrl: './iptvv.jpg',
+  //     link: 'https://ulka.tv/ulka-lite',
+  //   },
+  //   {
+  //     imageUrl: './futures4.jpg',
+  //     link: 'https://ulka.tv/packs',
+  //   },
+  //   {
+  //     imageUrl: './resa.png',
+  //     link: 'https://www.android.com/better-together/',
+  //   },
+  // ];
   
-  const images = [
-    { src: "/rem.png", alt: "Image 1" },
-    { src: "/smrt.png", alt: "Image 2" },
-    { src: "/des.png", alt: "Image 3" },
-    { src: "/maraj.png", alt: "Image 4" },  
-  ];
+  // const images = [
+  //   { src: "/rem.png", alt: "Image 1" },
+  //   { src: "/smrt.png", alt: "Image 2" },
+  //   { src: "/des.png", alt: "Image 3" },
+  //   { src: "/maraj.png", alt: "Image 4" },  
+  // ];
   
   const services = [
     {
-      image: "wifinet.png",
+      src: "wifinet.png",
     },
     {
-      image: "online.png",
+      src: "online.png",
     },
     {
-      image: "ssta.png",
+      src: "ssta.png",
     },
     {
-      image: "asa.png",
+      src: "asa.png",
     },
     {
-      image: "style.png",
+      src: "style.png",
     },
     {
-      image: "dst.png",
+      src: "dst.png",
     },
     {
-      image: "dis.png",
+      src: "dis.png",
     },
     {
-      image: "swsa.png",
+      src: "swsa.png",
     },
     {
-      image: "qwa.png",
+      src: "qwa.png",
     },
     {
       title: "",
-      image: "ser.png",
+      src: "ser.png",
     },
   ];
   
@@ -91,7 +91,7 @@ const SmartConnectPage = () => {
             >
               <h3 className="text-xl font-semibold text-white text-center">{service.title}</h3>
               <img
-                src={service.image}
+                src={service.src}
                 alt={service.title}
                 className="mt-4 w-40 h-40 object-contain rounded-xl"
               />
