@@ -97,7 +97,7 @@ const SmartTvPage: React.FC = () => {
   ];
 
   const platforms = [
-    { name: 'Android TV', src: "/smarttv.png", }, // Replace with actual image paths
+    { name: 'Android TV', src: "/smarttv.png", },
     { name: 'Google TV', src: "/googletv.jpg", },
     { name: 'Fire TV', src: "/firetv.jpeg", },
     { name: 'Fire Stick', src: "/feature-image.webp", },
@@ -145,40 +145,7 @@ const SmartTvPage: React.FC = () => {
             </p>
           </div>
         </div>
-
       </div>
-
-
-      {/* <div className="flex justify-center items-center mt-[3rem] px-4">
-        <div className="w-full max-w-[1400px] flex flex-col md:flex-row items-center md:items-start gap-6">
-          <div className="flex-1">
-            <Image
-              src="/andriodtv.webp"
-              alt="Large Facility Image"
-              width={500}
-              height={600}
-              objectFit="cover"
-              priority
-            />
-          </div>
-          
-          <div className="flex-1 bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold mb-4">
-              ULKA Lite App is available in Android TV, Google TV, Fire TV, Fire Stick, Samsung TV App Stores, and LG TV is under process?
-            </h2>
-            <p className="text-gray-700">
-            The ULKA Lite App is available on the following platforms:
-
-            Android TV
-            Google TV
-            Fire TV
-            Fire Stick
-            Samsung TV App Stores
-            The app's availability on LG TV is currently under process.
-            </p>
-          </div>
-        </div>
-      </div> */}
 
       <div className="p-6 bg-[#0a0f2c] rounded-[20px]">
       <h2 className="text-2xl font-bold text-center text-white mb-6">ULKA Lite App is available in Android TV, Google TV, Fire TV, Fire Stick, Samsung TV App Stores, and LG TV is under process:</h2>
@@ -202,7 +169,6 @@ const SmartTvPage: React.FC = () => {
         ))}
       </div>
     </div>
-
     </div>
   );
 };

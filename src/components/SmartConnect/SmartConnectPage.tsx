@@ -175,35 +175,6 @@ const SmartConnectPage = () => {
           }
         `}</style>
       </div>
-
-
-
-      {/* <div className="container lg:w-[80%] mb-16 mx-auto p-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="border overflow-hidden shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
-            >
-              <img
-                src={project.imageUrl}
-                alt={`Project ${index + 1}`}
-                className="w-full h-[9rem] object-cover"
-              />
-              <div className="p-2">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-teal-600 flex font-bold items-center mt-2"
-                >
-                  View Website
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 };

@@ -125,35 +125,9 @@ const TechnologyPage = () => {
         </div>
       </section>
 
-      
-
       <div className="p-2">
         <h2 className="text-center font-semibold text-2xl font-poppins text-blue-800 mt-[5rem]">Subscriber Management System</h2>
       </div>
-
-      {/* <div className="flex flex-col mt-10 md:flex-row items-center max-w-5xl mx-auto">
-        <div className="md:w-1/2 w-full h-full flex items-center justify-center transform transition-all duration-700 motion-safe:translate-x-[-50px] opacity-0 motion-safe:opacity-100 hover:translate-x-0 hover:opacity-100">
-          <Image
-            src="/futures4.jpg"
-            alt="Team Meeting"
-            width={800}
-            height={600}
-            className="object-cover w-[90%] h-auto"
-          />
-        </div>
-        <div className="md:w-1/2 w-full p-4 transform transition-all duration-700 motion-safe:translate-x-[50px] opacity-0 motion-safe:opacity-100 hover:translate-x-0 hover:opacity-100">
-          <div className="text-3xl font-bold leading-10 text-black text-[14px]">
-            <span className="font-bold text-[19px]">Rcast</span> <span className="text-[#33CCC5] text-[18px]">have developed its own CDN system and not dependent on 3rd Party Vendors and they can be cascaded to save the trunk line capacity and offers regional advertisements. Lowest Trunk Line requirement for connecting CDN servers...</span>
-            
-            <span className="text-[#0A8FC3]"> ULKA TV</span>
-          </div>
-          <p className="mt-4 text-yellow-600">
-          150-300 Mbps for 250 SD+16 HD Channels. 500-1000 Mbps for all the 700 Channels</p>
-        </div>
-      </div> */}
-
- 
-
 
       <div className="flex flex-col mt-10 md:flex-row items-center max-w-6xl mx-auto mb-8">
         <div
@@ -233,7 +207,6 @@ const TechnologyPage = () => {
           ))}
         </div>
       </div>
-
 
       <div className="text-center ">
         <h2 className="font-semibold text-2xl font-poppins text-blue-800 mt-[5rem]">DRM Application Server</h2>

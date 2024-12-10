@@ -6,40 +6,40 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Home = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isScrolled, setScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  // Toggle mobile menu
   const toggleMobileMenu = () => {
     setMobileMenuOpen((prev) => !prev);
   };
 
+  // Detect scrolling
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
     <div className="bg-white">
       <header
-        className={`fixed top-0 left-0 w-full z-10 shadow-md transition-all duration-1000 ease-in-out ${
+        className={`fixed top-0 left-0 w-full z-10 shadow-md transition-all duration-500 ease-in-out ${
           isScrolled ? "bg-white py-3" : "bg-white py-5"
         }`}
       >
-        <div className="container mx-auto px-1 flex items-center justify-between">
+        <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-left text-black font-bold">
             <Image
               src="/Rcast.png"
               alt="logo"
               width={isScrolled ? 150 : 200}
               height={isScrolled ? 60 : 80}
-              className="rounded-lg transition-all duration-1000 ease-in-out"
+              className="rounded-lg transition-all duration-500 ease-in-out"
             />
           </div>
 
@@ -61,9 +61,9 @@ const Home = () => {
             </li>
             <li className="cursor-pointer hover:text-[#F7961E] py-2 px-4 md:py-0 md:px-0">
               <Link href="/technology">Technology</Link>
-            </li> 
+            </li>
             <li className="cursor-pointer hover:text-[#F7961E] py-2 px-4 md:py-0 md:px-0">
-              <Link href="/iptvs">IPTV vs OTT </Link>
+              <Link href="/iptvs">IPTV vs OTT</Link>
             </li>
             <li className="cursor-pointer hover:text-[#F7961E] py-2 px-4 md:py-0 md:px-0">
               <Link href="/iptvcable">IPTV vs Cable TV</Link>

@@ -31,7 +31,6 @@ const SmartAppPage: React.FC = () => {
     },
 
   ];
-  
 
     const contentSections = [
     {
@@ -49,11 +48,6 @@ const SmartAppPage: React.FC = () => {
       alt: "Smart TV",
       label: "SMART TV",
     },
-    // {
-    // src: "/smarttvone.png",
-    // alt: "Smart TV",
-    // label: "SMART TV",
-    //   },
   ];
 
   const infoSections = [
@@ -212,11 +206,10 @@ const SmartAppPage: React.FC = () => {
           </div>
       </section>
 
-
       <div className="min-h-screen bg-gradient-to-r from-blue-100 to-yellow-100 flex flex-col items-center justify-center px-4 py-8">
-      <h1 className="text-4xl font-bold text-center text-blue-900 mb-8 mt-28">
-        Future of Television in India
-      </h1>
+        <h1 className="text-4xl font-bold text-center text-blue-900 mb-8 mt-28">
+          Future of Television in India
+        </h1>
 
         <div className="flex flex-col lg:flex-row items-center gap-8">
           {contentSections.map((section, index) => (

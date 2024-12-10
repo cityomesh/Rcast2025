@@ -90,27 +90,6 @@ const PartnersPage = () => {
               ))}
             </div>
           </div>
-
-          {/* <div className="my-[1px] flex flex-col justify-center items-center">
-            <h1 className="mb-[40px] px-4 text-center">
-              <span className="text-[#2B1C50] xl:text-[40px] text-[16px] font-semibold mr-2">
-                Learn about
-              </span>
-              <span className="text-[#F7961E] xl:text-[40px] text-[16px] font-semibold">
-                Regulatory Compliance
-              </span>
-            </h1>
-            <video
-                className="xl:w-[1170px] h-[437px] rounded-[20px] w-[300px] sm:w-[500px] md:w-[700px] object-cover"
-                preload="none"
-                autoPlay
-                loop
-                muted
-            >
-                <source src="/Getting.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-          </div> */}
         </div>
       </div>
 
@@ -130,8 +109,6 @@ const PartnersPage = () => {
         }
       `}</style>
       
-
-
       <div className="bg-white mt-[3rem] mb-8">
         <h2 className="text-center font-semibold text-2xl font-poppins text-blue-800">Telecom Regulatory Authority Of India</h2>
       </div>
